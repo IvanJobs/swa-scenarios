@@ -1,20 +1,18 @@
 {
-  "name": "standard-westeurope-other",
-  "main": "index.js",
-  "dependencies": {
-    "express": "^4.13.3",
-    "serve-static": "^1.10.0",
-    "gulp": "^3.9.0"
+  "name": "nuxtjs-static-website",
+  "version": "1.0.0",
+  "description": "My divine Nuxt.js project",
+  "author": "Christian Nwamba",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "start": "nuxt start",
+    "generate": "nuxt build"
   },
-  "devDependencies": {
-    "connect-livereload": "^0.5.4",
-    "gulp-express": "^0.3.5",
-    "gulp-clean": "^0.3.1",
-    "gulp-concat": "^2.6.0",
-    "gulp-html-replace": "^1.5.5",
-    "gulp-html-src": "^1.0.0",
-    "gulp-minify-css": "^1.2.3",
-    "gulp-uglify": "^1.5.1",
-    "merge-stream": "^1.0.0"
-  }
+  "dependencies": {
+    "isomorphic-unfetch": "^3.1.0",
+    "nuxt": "^2.15.7"
+  },
+  "devDependencies": {}
 }
