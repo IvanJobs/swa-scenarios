@@ -3,7 +3,9 @@
   "configurations": {
     "vanilla-basic": {
       "appLocation": "src",
-      "outputLocation": "."
+      "outputLocation": ".",
+      "appName": "vanilla-basic",
+      "resourceGroup": "swa-scenarios"
     }
   }
 }
