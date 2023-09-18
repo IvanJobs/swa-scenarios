@@ -1,4 +1,4 @@
-name: Azure Static Web Apps CI/CD
+name: Vanilla Basic
 #### https://green-flower-050b4b710.3.azurestaticapps.net
 on:
   workflow_dispatch:
